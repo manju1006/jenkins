@@ -24,7 +24,7 @@ pipeline {
         stage('Stage 3') {
           steps {
             script {
-              sh 'sleep 20'
+              echo 'this is for testing the pipeline job'
             }
           }
         }
